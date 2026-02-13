@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Sitemap: https://novagaminghub.com/sitemap.xml
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/

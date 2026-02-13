@@ -1,0 +1,100 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="memoryBg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#6c5ce7;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#a363d9;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#f5f6fa;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#dfe6e9;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="400" height="300" fill="url(#memoryBg)"/>
+    
+    <!-- Memory Cards Grid -->
+    <g transform="translate(40,40)">
+        <!-- Row 1 -->
+        <!-- Card 1 (Flipped - Dog) -->
+        <g transform="translate(0,0)">
+            <rect x="0" y="0" width="70" height="70" rx="10" fill="url(#cardGradient)" stroke="#6c5ce7" stroke-width="3"/>
+            <text x="35" y="45" font-family="Arial" font-size="30" text-anchor="middle" fill="#6c5ce7">🐶</text>
+        </g>
+        
+        <!-- Card 2 (Flipped - Cat) -->
+        <g transform="translate(80,0)">
+            <rect x="0" y="0" width="70" height="70" rx="10" fill="url(#cardGradient)" stroke="#6c5ce7" stroke-width="3"/>
+            <text x="35" y="45" font-family="Arial" font-size="30" text-anchor="middle" fill="#6c5ce7">🐱</text>
+        </g>
+        
+        <!-- Card 3 (Face Down) -->
+        <g transform="translate(160,0)">
+            <rect x="0" y="0" width="70" height="70" rx="10" fill="#6c5ce7" stroke="#a363d9" stroke-width="3"/>
+            <text x="35" y="45" font-family="Arial" font-size="30" text-anchor="middle" fill="white">?</text>
+        </g>
+        
+        <!-- Card 4 (Face Down) -->
+        <g transform="translate(240,0)">
+            <rect x="0" y="0" width="70" height="70" rx="10" fill="#6c5ce7" stroke="#a363d9" stroke-width="3"/>
+            <text x="35" y="45" font-family="Arial" font-size="30" text-anchor="middle" fill="white">?</text>
+        </g>
+        
+        <!-- Row 2 -->
+        <!-- Card 5 (Flipped - Mouse) -->
+        <g transform="translate(0,80)">
+            <rect x="0" y="0" width="70" height="70" rx="10" fill="url(#cardGradient)" stroke="#6c5ce7" stroke-width="3"/>
+            <text x="35" y="45" font-family="Arial" font-size="30" text-anchor="middle" fill="#6c5ce7">🐭</text>
+        </g>
+        
+        <!-- Card 6 (Flipped - Rabbit) -->
+        <g transform="translate(80,80)">
+            <rect x="0" y="0" width="70" height="70" rx="10" fill="url(#cardGradient)" stroke="#6c5ce7" stroke-width="3"/>
+            <text x="35" y="45" font-family="Arial" font-size="30" text-anchor="middle" fill="#6c5ce7">🐰</text>
+        </g>
+        
+        <!-- Card 7 (Face Down) -->
+        <g transform="translate(160,80)">
+            <rect x="0" y="0" width="70" height="70" rx="10" fill="#6c5ce7" stroke="#a363d9" stroke-width="3"/>
+            <text x="35" y="45" font-family="Arial" font-size="30" text-anchor="middle" fill="white">?</text>
+        </g>
+        
+        <!-- Card 8 (Face Down) -->
+        <g transform="translate(240,80)">
+            <rect x="0" y="0" width="70" height="70" rx="10" fill="#6c5ce7" stroke="#a363d9" stroke-width="3"/>
+            <text x="35" y="45" font-family="Arial" font-size="30" text-anchor="middle" fill="white">?</text>
+        </g>
+        
+        <!-- Row 3 -->
+        <!-- Matched Pairs -->
+        <g transform="translate(0,160)">
+            <rect x="0" y="0" width="70" height="70" rx="10" fill="#00b894" stroke="white" stroke-width="3"/>
+            <text x="35" y="45" font-family="Arial" font-size="30" text-anchor="middle" fill="white">🐶</text>
+        </g>
+        
+        <g transform="translate(80,160)">
+            <rect x="0" y="0" width="70" height="70" rx="10" fill="#00b894" stroke="white" stroke-width="3"/>
+            <text x="35" y="45" font-family="Arial" font-size="30" text-anchor="middle" fill="white">🐱</text>
+        </g>
+        
+        <g transform="translate(160,160)">
+            <rect x="0" y="0" width="70" height="70" rx="10" fill="#00b894" stroke="white" stroke-width="3"/>
+            <text x="35" y="45" font-family="Arial" font-size="30" text-anchor="middle" fill="white">🐭</text>
+        </g>
+        
+        <g transform="translate(240,160)">
+            <rect x="0" y="0" width="70" height="70" rx="10" fill="#00b894" stroke="white" stroke-width="3"/>
+            <text x="35" y="45" font-family="Arial" font-size="30" text-anchor="middle" fill="white">🐰</text>
+        </g>
+    </g>
+    
+    <!-- Game Stats -->
+    <g transform="translate(40,250)">
+        <text x="0" y="0" font-family="Arial" font-size="16" fill="white">Moves: 24</text>
+        <text x="150" y="0" font-family="Arial" font-size="16" fill="white">Matches: 4/8</text>
+        <text x="300" y="0" font-family="Arial" font-size="16" fill="white">Time: 01:24</text>
+    </g>
+    
+    <!-- Title -->
+    <text x="200" y="20" font-family="Arial Black" font-size="24" fill="white" text-anchor="middle">MEMORY CARDS</text>
+</svg>
